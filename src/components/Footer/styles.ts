@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FooterInterface } from "./FooterInterface";
+import { FooterInterface } from "../../interfaces/FooterInterface";
 
 export const Container = styled.footer`
   display: flex;

@@ -15,6 +15,7 @@ export default createGlobalStyle`
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: var(--black);
   }
   
   *, button, input {
@@ -34,5 +35,9 @@ export default createGlobalStyle`
 
   a {
     color: inherit;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0;
   }
 `;

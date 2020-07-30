@@ -4,7 +4,7 @@ import { Container, Text } from "./styles";
 import { Logo } from "../Menu/styles";
 import Memeflix from "../../assets/images/memeflix.png";
 
-import { FooterInterface } from "./FooterInterface";
+import { FooterInterface } from "../../interfaces/FooterInterface";
 
 const Footer = ({ home }: FooterInterface) => {
   return (

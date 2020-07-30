@@ -31,21 +31,6 @@ const Button = styled.button`
     font-size: 1.2rem;
     margin-right: 4px;
   }
-
-  @media (max-width: 800px) {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 54px;
-    border-radius: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-
-    svg {
-      display: block;
-    }
-  }
 `;
 
 export default Button;
