@@ -31,6 +31,10 @@ export const Wrapper = styled.div`
   }
 `;
 
+interface ImageProps {
+  image: string;
+}
+
 export const BackgroundImage = styled.div`
   position: absolute;
   top: 0;
@@ -40,7 +44,7 @@ export const BackgroundImage = styled.div`
   width: 100%;
   height: 100%;
 
-  background-image: url("https://img.youtube.com/vi/peMqhSA1l74/maxresdefault.jpg");
+  background-image: url("${(props: ImageProps) => props.image}");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,6 +94,7 @@ export const Title = styled.h1`
 
   @media (max-width: 800px) {
     font-weight: 400;
+    margin-top: 36px;
   }
 `;
 

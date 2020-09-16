@@ -22,7 +22,7 @@ const Banner = ({ title, description, url }: BannerInterface) => {
 
   return (
     <Container>
-      <BackgroundImage />
+      <BackgroundImage image={imageFromVideo} />
       <Wrapper>
         <Text>
           <Tag>Novidade</Tag>
